@@ -20,7 +20,7 @@ Include below code in .jsp page to disable back button.
  
 Include this code in .java file to disable back button in default interceptor.
 
-```jsp
+```java
 HttpServletRequest request = (HttpServletRequest) context.get(ServletActionContext.HTTP REQUEST);
 HttpServletResponse response = (HttpServletResponse) context.get(ServletActionContext.HTTP RESPONSE);
 HttpSession session = request.getSession(false);
